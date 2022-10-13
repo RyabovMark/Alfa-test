@@ -1,0 +1,32 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    margin-bottom: 50px
+}
+
+.table-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px
+}
+
+.table-btn {
+    font-size: 18px;
+}
+
+.table-genre-list {
+    min-width: 180px;
+}
+
+.table-grid {
+    flex: 1 0 auto;
+    margin-bottom: 20px;
+}
+
+.table-pagination {
+    display: flex;
+    justify-content: center;
+}
